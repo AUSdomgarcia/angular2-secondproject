@@ -8,6 +8,7 @@ if (process.env.ENV === 'build') {
 }
 
 export function main() {
+  alert('onready' + JSON.stringify(AppModule));
   return platformBrowserDynamic().bootstrapModule(AppModule);
 }
 
